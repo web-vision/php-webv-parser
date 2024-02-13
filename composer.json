@@ -1,16 +1,22 @@
 {
     "name": "webvision/php-webv-parser",
-    "type": "magento2-module",
+    "description": "Extended package of Simple HTML DOM",
+    "keywords": [
+        "dom",
+        "php dom",
+        "HTML parser",
+        "Content extractor"
+    ],
+    "type": "library",
     "version": "1.0.0",
-    "license": "proprietary",
-    "description": "webVision parser",
+    "license": "MIT",
     "authors": [
         {
             "name": "S.C. Chen",
             "homepage": "http://sourceforge.net/projects/simplehtmldom/"
         },
         {
-            "name": "WebVision",
+            "name": "web-vision GmbH",
             "email": "support@web-vision.de",
             "homepage": "https://github.com/web-vision"
         }
