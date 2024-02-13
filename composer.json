@@ -1,0 +1,27 @@
+{
+    "name": "webvision/php-webv-parser",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "description": "webVision parser",
+    "authors": [
+        {
+            "name": "S.C. Chen",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+        },
+        {
+            "name": "WebVision",
+            "email": "support@web-vision.de",
+            "homepage": "https://github.com/web-vision"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebVision\\Scrapper\\": "src/"
+        }
+    }
+}
